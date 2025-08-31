@@ -7,7 +7,7 @@ export const Route = createFileRoute("/cookies")({
 function RouteComponent() {
   return (
     <div className="bg-[url('/wavycookies.svg')] bg-no-repeat bg-cover">
-    <div className="min-h-screen max-w-[60%] mx-auto pb-20">
+    <div className="min-h-screen max-w-[65%] mx-auto pb-20">
       <div className="text-center text-5xl pt-40 mb-40">
         <h1
           className="underline underline-offset-15 decoration-1"
