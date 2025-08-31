@@ -10,7 +10,7 @@ export default function Index() {
         <div className=" bg-[url('/manywaves.svg')] border-stone-300 w-full bg-top pb-15 bg-cover">
           <div
             onClick={() => navigate({ to: "/cookies" })}
-            className="flex mt-30 items-center cursor-pointer border-1 bg-[#e4e0d5] max-w-[50%] mx-auto rounded-3xl"
+            className="flex mt-20 items-center cursor-pointer border-1 bg-[#e4e0d5] max-w-[50%] mx-auto rounded-3xl"
           >
             <img
               className="h-100 w-100 rounded-3xl rounded-r-none"

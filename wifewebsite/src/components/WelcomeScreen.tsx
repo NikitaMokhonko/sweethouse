@@ -3,9 +3,9 @@ export default function WelcomeScreen() {
     <>
     <div className="">
       <div className=" flex bg-[#e4e0d5] text-black justify-center align-middle">
-        <img src="/Sweethouse.png" alt="Logo" className="h-120 w-120" />
+        <img src="/Sweethouse.png" alt="Logo" className="mt-10 mb-10 h-80 w-80" />
       </div>
-      <div className="flex bg-[#e4e0d5] text-black justify-center align-middle items-center relative overflow-hidden h-34">
+      <div className="flex bg-[#e4e0d5] text-black justify-center align-middle items-center relative overflow-hidden h-28">
         <h1
           className="mt-1 text-5xl pb-10 absolute"
           style={{
@@ -23,7 +23,7 @@ export default function WelcomeScreen() {
           src="train.png"
           className="absolute pb-10 w-40  object-contain animate-train"
           style={{
-            animation: "train-move 7s linear forwards",
+            animation: "train-move 6.7s linear forwards",
             left: 0,
             top: "50%",
             transform: "translateY(-50%)",
@@ -32,7 +32,7 @@ export default function WelcomeScreen() {
         <style>
           {`
               @keyframes train-move {
-          from { left: 12.5%; }
+          from { left: 16.5%; }
           to { left: 100%; }
               }
               @keyframes welcome-move {
