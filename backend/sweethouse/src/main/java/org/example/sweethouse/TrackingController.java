@@ -2,15 +2,13 @@ package org.example.sweethouse;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.kafka.core.KafkaTemplate;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.Map;
 
 @RestController
 @RequestMapping("/track")
+@CrossOrigin(origins = "http://localhost:3000")
 public class TrackingController {
 
     private final KafkaTemplate<String, String> kafkaTemplate;
@@ -23,6 +21,7 @@ public class TrackingController {
     public ResponseEntity<String> trackPage(@RequestBody Map<String, String> payload) {
         String page = payload.get("page");
         kafkaTemplate.send("page-clicks", page);
+        System.out.println("Tracking page: " + page);
         return ResponseEntity.ok().build();
     }
 }
