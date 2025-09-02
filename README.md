@@ -13,6 +13,7 @@ This is a website I built for my girlfriend’s upcoming pastry business, **Swee
 [https://sweethouse-jet.vercel.app/](https://sweethouse-jet.vercel.app/)  
 
 ## Prototype (Figma)  
-<img width="2445" height="771" alt="image" src="https://github.com/user-attachments/assets/cc568d9d-bb32-48a0-875d-f4697769d0fc" />
+<img width="2556" height="757" alt="image" src="https://github.com/user-attachments/assets/c0198d7c-7d6a-4708-918b-f23851e31217" />
+
 
 
