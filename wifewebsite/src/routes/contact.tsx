@@ -5,5 +5,7 @@ export const Route = createFileRoute('/contact')({
 })
 
 function RouteComponent() {
-  return <div>Hello "/contact"!</div>
+  return (
+  <div className='min-h-screen'>Hello "/contact"!</div>
+  )
 }
