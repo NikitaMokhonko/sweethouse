@@ -15,6 +15,7 @@ export default function Index() {
             <img
               className="h-100 w-100 rounded-3xl rounded-r-none"
               src="/Cookie1.JPG"
+              alt="Cookies"
             />
             <div className="text-center rounded-4xl rounded-l-none px-15 ">
               <h1
@@ -48,6 +49,7 @@ export default function Index() {
             <img
               className="h-100 w-100  rounded-3xl rounded-l-none"
               src="/Cakes.JPG"
+              alt="Cakes"
             />
           </div>
           <div
@@ -57,6 +59,7 @@ export default function Index() {
             <img
               className="h-100 w-100 rounded-3xl rounded-r-none"
               src="/Tartes.JPG"
+              alt="Tartes"
             />
             <div className="text-center rounded-4xl rounded-l-none px-15 ">
               <h1

@@ -29,6 +29,7 @@ function RouteComponent() {
             <img
               className="h-100 w-100 border-1 border-stone-300 rounded-3xl"
               src="/Tartes.JPG"
+              alt="Tartes"
             />
             <div className="text-center rounded-4xl max-w-[50%] rounded-l-none">
               <h1
@@ -59,12 +60,14 @@ function RouteComponent() {
             <img
               className="h-100 w-100 border-1 border-stone-300 rounded-3xl"
               src="/Tartes.JPG"
+              alt="Tartes"
             />
           </div>
           <div className="flex justify-between mt-20 items-center bg-[#e4e0d5] mx-auto rounded-3xl">
             <img
               className="h-100 w-100 border-1 border-stone-300 rounded-3xl"
               src="/Tartes.JPG"
+              alt="Tartes"
             />
             <div className="text-center rounded-4xl max-w-[50%] rounded-l-none">
               <h1
@@ -95,6 +98,7 @@ function RouteComponent() {
             <img
               className="h-100 w-100 border-1 border-stone-300 rounded-3xl"
               src="/Tartes.JPG"
+              alt="Tartes"
             />
           </div>
         </div>

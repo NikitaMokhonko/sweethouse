@@ -21,6 +21,7 @@ export default function WelcomeScreen() {
         </h1>
         <img
           src="train.png"
+          alt="Train"
           className="absolute pb-10 w-40  object-contain animate-train"
           style={{
             animation: "train-move 6.7s linear forwards",
