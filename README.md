@@ -9,8 +9,6 @@ This is a website I built for my girlfriend’s upcoming pastry business, **Swee
 - **Tracking:** Kafka  
 - **Authentication:** Clerk  
 
-You can browse the available selection by clicking the different categories in the header, or by clicking the images at the bottom of the front page. Sign in is available through Clerk, and in the future there will be a page for the user to track their orders.
-
 ## Live Website  
 👉 [https://sweethouse-jet.vercel.app/](https://sweethouse-jet.vercel.app/)  
 
