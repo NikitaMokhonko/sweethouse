@@ -7,7 +7,7 @@ export default function WelcomeScreen() {
       </div>
       <div className="flex bg-[#e4e0d5] text-black justify-center align-middle items-center relative overflow-hidden h-28">
         <h1
-          className="mt-1 text-5xl pb-10 absolute"
+          className="mt-1 text-xl md:text-5xl pb-10 absolute"
           style={{
             left: "50%",
             transform: "translate(-50%, -50%)",

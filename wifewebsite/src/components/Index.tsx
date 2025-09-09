@@ -4,7 +4,7 @@ import ScrollArrow from "../components/ScrollArrow.tsx";
 export default function Index() {
   const navigate = useNavigate();
   return (
-    <>
+    <div className="max-w-screen overflow-x-hidden ">
       <ScrollArrow />
       <div className="min-h-screen">
         <div className=" bg-[url('/manywaves.svg')] border-stone-300 w-full bg-top pb-15 bg-cover">
@@ -76,6 +76,6 @@ export default function Index() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
