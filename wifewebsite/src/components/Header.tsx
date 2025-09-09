@@ -16,7 +16,6 @@ export default function Header() {
     <header>
       <div className="border-b-1 pt-1 align-center">
         <div className="flex pl-2 pr-4 justify-between items-center bg-[#e4e0d5]">
-          {/* Logo */}
           <img
             src="/Textlogo.png"
             alt="Logo"
@@ -24,9 +23,7 @@ export default function Header() {
             onClick={() => navigate({ to: "/" })}
           />
 
-          {/* Desktop Nav */}
           <div className="hidden md:flex gap-20 pr-10 flex-row justify-center items-center">
-            {/* Dropdown */}
             <details className="group relative">
               <summary
                 style={{ fontFamily: "Parisienne, cursive" }}
@@ -80,10 +77,9 @@ export default function Header() {
             </button>
           </div>
 
-          {/* Desktop Auth */}
           <div className="hidden md:block">
             <SignedOut>
-              <SignInButton>
+              <SignInButton mode="modal">
                 <button
                   style={{ fontFamily: "Parisienne, cursive" }}
                   className="text-black text-2xl cursor-pointer"
@@ -97,14 +93,13 @@ export default function Header() {
             </SignedIn>
           </div>
 
-          {/* Mobile Hamburger */}
           <button
             className="md:hidden flex flex-col space-y-1 p-2"
             onClick={() => setMenuOpen(!menuOpen)}
           >
             <span
               className={`h-0.5 w-6 bg-black transition ${
-                menuOpen ? "rotate-45 translate-y-2" : ""
+                menuOpen ? "rotate-45 translate-y-1.5" : ""
               }`}
             />
             <span
@@ -114,13 +109,12 @@ export default function Header() {
             />
             <span
               className={`h-0.5 w-6 bg-black transition ${
-                menuOpen ? "-rotate-45 -translate-y-2" : ""
+                menuOpen ? "-rotate-45 -translate-y-1.5" : ""
               }`}
             />
           </button>
         </div>
 
-        {/* Mobile Menu */}
         {menuOpen && (
           <div className="md:hidden flex flex-col bg-[#e4e0d5] border-t border-black p-4 space-y-4">
             <button
