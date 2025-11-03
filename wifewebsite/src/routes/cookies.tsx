@@ -15,9 +15,9 @@ function RouteComponent() {
     }).catch((err) => console.error("Tracking failed:", err));
   }, []);
   return (
-    <div className="bg-[url('/wavycookies.svg')] bg-no-repeat bg-cover">
-      <div className="min-h-screen max-w-[65%] mx-auto pb-20">
-        <div className="text-center text-5xl pt-40 mb-40">
+    <div className="sm:bg-[url('/wavycookies.svg')] bg-no-repeat bg-cover">
+      <div className="min-h-screen max-w-[80%] sm:max-w-[65%] mx-auto pb-20">
+        <div className="text-center text-5xl sm:pt-40 pt-20 mb-20 sm:mb-40">
           <h1
             className="underline underline-offset-15 decoration-1"
             style={{ fontFamily: "Parisienne, cursive" }}
@@ -25,14 +25,14 @@ function RouteComponent() {
             Our Cookies
           </h1>
         </div>
-        <div className="border-1 bg-[#e4e0d5] py-25 px-25">
-          <div className="flex justify-between items-center bg-[#e4e0d5] mx-auto rounded-3xl">
+        <div className="sm:border-1 bg-[#e4e0d5] sm:py-25 sm:px-25">
+          <div className="flex flex-col sm:flex-row sm:justify-between items-center bg-[#e4e0d5] mx-auto rounded-3xl">
             <img
-              className="h-100 w-100 border-1 border-stone-300 rounded-3xl"
+              className="sm:h-100 h-70 sm:w-100 w-70 border-1 border-stone-300 rounded-3xl"
               src="/Cookie1.JPG"
               alt="Cookies"
             />
-            <div className="text-center rounded-4xl max-w-[50%] rounded-l-none">
+            <div className="text-center rounded-4xl sm:max-w-[50%] max-w-[70%] rounded-l-none pt-10 sm:pt-0">
               <h1
                 style={{ fontFamily: "Parisienne, cursive" }}
                 className="text-3xl text-center"
@@ -46,8 +46,8 @@ function RouteComponent() {
               </h2>
             </div>
           </div>
-          <div className="flex justify-between mt-10 items-center bg-[#e4e0d5] mx-auto rounded-3xl">
-            <div className="text-center rounded-4xl max-w-[50%] rounded-l-none">
+          <div className="flex flex-col-reverse sm:flex-row sm:justify-between mt-10 items-center bg-[#e4e0d5] mx-auto rounded-3xl">
+            <div className="text-center rounded-4xl sm:max-w-[50%] max-w-[70%] rounded-l-none pt-10 sm:pt-0">
               <h1
                 style={{ fontFamily: "Parisienne, cursive" }}
                 className="text-3xl text-center"
@@ -61,18 +61,18 @@ function RouteComponent() {
               </h2>
             </div>
             <img
-              className="h-100 w-100 border-1 border-stone-300 rounded-3xl"
+              className="sm:h-100 h-70 sm:w-100 w-70 border-1 border-stone-300 rounded-3xl"
               src="/Cookie1.JPG"
               alt="Cookies"
             />
           </div>
-          <div className="flex justify-between mt-20 items-center bg-[#e4e0d5] mx-auto rounded-3xl">
+          <div className="flex flex-col sm:flex-row sm:justify-between mt-20 items-center bg-[#e4e0d5] mx-auto rounded-3xl">
             <img
-              className="h-100 w-100 border-1 border-stone-300 rounded-3xl"
+              className="sm:h-100 h-70 sm:w-100 w-70 border-1 border-stone-300 rounded-3xl"
               src="/Cookie1.JPG"
               alt="Cookies"
             />
-            <div className="text-center rounded-4xl max-w-[50%] rounded-l-none">
+            <div className="text-center rounded-4xl sm:max-w-[50%] max-w-[70%] rounded-l-none pt-10 sm:pt-0">
               <h1
                 style={{ fontFamily: "Parisienne, cursive" }}
                 className="text-3xl text-center"
@@ -86,8 +86,8 @@ function RouteComponent() {
               </h2>
             </div>
           </div>
-          <div className="flex justify-between mt-20 items-center bg-[#e4e0d5] mx-auto rounded-3xl">
-            <div className="text-center rounded-4xl max-w-[50%] rounded-l-none">
+          <div className="flex flex-col-reverse sm:flex-row sm:justify-between mt-20 items-center bg-[#e4e0d5] mx-auto rounded-3xl">
+            <div className="text-center rounded-4xl sm:max-w-[50%] max-w-[70%] rounded-l-none pt-10 sm:pt-0">
               <h1
                 style={{ fontFamily: "Parisienne, cursive" }}
                 className="text-3xl text-center"
@@ -101,7 +101,7 @@ function RouteComponent() {
               </h2>
             </div>
             <img
-              className="h-100 w-100 border-1 border-stone-300 rounded-3xl"
+              className="sm:h-100 h-70 sm:w-100 w-70 border-1 border-stone-300 rounded-3xl"
               src="/Cookie1.JPG"
               alt="Cookies"
             />
