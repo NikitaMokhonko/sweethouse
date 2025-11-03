@@ -10,14 +10,14 @@ export default function Index() {
         <div className=" bg-[url('/manywaves.svg')] border-stone-300 w-full bg-top pb-15 bg-cover">
           <div
             onClick={() => navigate({ to: "/cookies" })}
-            className="flex mt-20 items-center cursor-pointer border-1 bg-[#e4e0d5] max-w-[50%] mx-auto rounded-3xl"
+            className="flex flex-col sm:flex-row mt-20 items-center cursor-pointer border-1 bg-[#e4e0d5] sm:max-w-[50%] w-[80%] mx-auto rounded-3xl"
           >
             <img
-              className="h-100 w-100 rounded-3xl rounded-r-none"
+              className="h-100 w-100 rounded-3xl sm:rounded-r-none rounded-b-none sm:rounded-bl-3xl"
               src="/Cookie1.JPG"
               alt="Cookies"
             />
-            <div className="text-center rounded-4xl rounded-l-none px-15 ">
+            <div className="text-center rounded-4xl rounded-l-none px-15 py-5">
               <h1
                 style={{ fontFamily: "Parisienne, cursive" }}
                 className="text-3xl text-center"
@@ -32,9 +32,9 @@ export default function Index() {
           </div>
           <div
             onClick={() => navigate({ to: "/cakes" })}
-            className="flex mt-20 items-center cursor-pointer border-1 bg-[#f8f5ed] max-w-[50%] mx-auto rounded-3xl"
+            className="flex flex-col-reverse sm:flex-row mt-20 items-center cursor-pointer border-1 bg-[#f8f5ed] sm:max-w-[50%] w-[80%] mx-auto rounded-3xl"
           >
-            <div className="text-center rounded-4xl rounded-r-none px-15 ">
+            <div className="text-center rounded-4xl rounded-r-none px-15 py-5">
               <h1
                 style={{ fontFamily: "Parisienne, cursive" }}
                 className="text-3xl text-center"
@@ -47,21 +47,21 @@ export default function Index() {
               </h2>
             </div>
             <img
-              className="h-100 w-100  rounded-3xl rounded-l-none"
+              className="h-100 w-100  rounded-3xl sm:rounded-l-none rounded-b-none sm:rounded-br-3xl"
               src="/Cakes.JPG"
               alt="Cakes"
             />
           </div>
           <div
             onClick={() => navigate({ to: "/tartes" })}
-            className="flex mt-20 cursor-pointer items-center border-1 bg-[#faf8f2] max-w-[50%] mx-auto rounded-3xl"
+            className="flex flex-col sm:flex-row mt-20 cursor-pointer items-center border-1 bg-[#faf8f2] sm:max-w-[50%] w-[80%] mx-auto rounded-3xl"
           >
             <img
-              className="h-100 w-100 rounded-3xl rounded-r-none"
+              className="h-100 w-100 rounded-3xl sm:rounded-r-none rounded-b-none sm:rounded-bl-3xl"
               src="/Tartes.JPG"
               alt="Tartes"
             />
-            <div className="text-center rounded-4xl rounded-l-none px-15 ">
+            <div className="text-center rounded-4xl rounded-l-none px-15 py-5">
               <h1
                 style={{ fontFamily: "Parisienne, cursive" }}
                 className="text-3xl text-center"
